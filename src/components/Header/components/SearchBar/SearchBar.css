@@ -1,0 +1,9 @@
+.SearchBar {
+  background-color: #3a6bb8;
+  min-width: 500px;
+}
+
+.SearchBarIcon {
+  width: 16px;
+  height: 16px;
+}
