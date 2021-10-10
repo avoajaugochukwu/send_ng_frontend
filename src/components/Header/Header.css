@@ -4,5 +4,43 @@
 }
 
 .RequestButton {
-  border: solid #275dac 1px;
+  border: solid #84a1d1 2px;
+  color: #eaeef3;
+}
+
+.ShipmentButton {
+  background-color: #5cc77f;
+  color: #eef0f3;
+}
+
+
+
+.header-flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: flex-start;
+  background-color: #0746a7;
+}
+.header-flex-item:nth-child(1) {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 20px;
+}
+.header-flex-item:nth-child(2) {
+  order: 0;
+  flex: 10 1 auto;
+  align-self: auto;
+  margin-right: 200px;
+}
+.header-flex-item:nth-child(3) {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  margin-right: 50px;
 }

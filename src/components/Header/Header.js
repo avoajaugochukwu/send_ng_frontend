@@ -7,24 +7,24 @@ import logo from '../../assets/img/send_ng_logo.png'
 export default function Header() {
   return (
     <div>
-      <div className="Header flex ">
-        <div className=" my-5 pl-14 pr-28">
+      <div className="header-flex-container">
+        <div className=" header-flex-item">
           <a href=".">
             <img src={logo} />
           </a>
 
         </div>
         {/* ----------------------------------------------------- */}
-        <div>
+        <div className="header-flex-item">
           <SearchBar />
         </div>
         {/* ----------------------------------------------------- */}
-        <div className="flex">
-          <button className="RequestButton border-solid border-2 my-4">
+        <div className="header-flex-item">
+          <button className="RequestButton px-8 my-5 rounded font-semibold text-sm">
             Request Quote
           </button>
 
-          <button>
+          <button className="ShipmentButton px-8 my-5 rounded font-semibold text-sm ml-9">
             Book Shipment
           </button>
         </div>
