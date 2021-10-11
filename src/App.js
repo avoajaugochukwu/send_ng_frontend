@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import NewBooking from './components/NewBooking';
+import SelectAService from './components/SelectAService';
 
 import './App.css';
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Header />
       <NewBooking />
+      <SelectAService />
     </div>
   );
 }

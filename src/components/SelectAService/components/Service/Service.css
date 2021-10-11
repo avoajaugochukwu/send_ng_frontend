@@ -1,0 +1,43 @@
+.ServiceWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border: 2px solid rgba(175, 174, 174, 0.412);
+  border-radius: 0.25rem;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  min-height: 100px;
+  align-items: center;
+}
+
+.ServiceWrapperActive {
+  background-color: #0746a7;
+  border: none;
+  min-height: 100px;
+}
+
+.ServiceIcon {
+  position: absolute;
+  right: -30px;
+  bottom: -30px;
+  z-index: 0;
+  width: 100px;
+  height: 100px;
+}
+
+.ServiceWrapper:not(:last-child) {
+  margin-right: 30px;
+}
+
+.ServiceText {
+  color: rgb(141, 140, 140);
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+
+.ServiceTextActive {
+  color: #fff !important;
+}
