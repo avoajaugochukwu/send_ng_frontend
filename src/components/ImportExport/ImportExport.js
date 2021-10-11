@@ -73,7 +73,7 @@ function ImportExport() {
             
             
             <select className={styles.SelectTag}>
-              <option selected>Incoterms</option>
+              <option defaultValue>Incoterms</option>
             </select>
           </div>
         </div>
