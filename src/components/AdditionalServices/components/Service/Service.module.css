@@ -1,0 +1,25 @@
+.FlexContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: flex-start;
+
+}
+
+  .Details {
+    margin-left: 20px;
+  }
+
+  .Title {
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+
+  .Desc {
+    font-size: 90%;
+    color: #919090;
+    padding-top: 5px;
+    font-weight: 400;
+  }

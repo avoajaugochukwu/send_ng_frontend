@@ -1,7 +1,7 @@
 
 import clsx from 'clsx'
 
-import ToggleButton from './components/ToggleButton'
+import ToggleButton from '../ToggleButton'
 import MaterialUIInput from './components/MaterialUIInput'
 
 import styles from './CargoDetails.module.css'
@@ -14,7 +14,7 @@ export default function CargoDetails() {
           <h3 className={styles.CargoDetailsHeader}>Cargo Details</h3>
         </div>
         <div className={clsx(styles.FlexItem, styles.DangerousSubstance)}>
-          <ToggleButton />
+          <ToggleButton id={'cd'} />
           <div>
             <span className={styles.Bolder}>&nbsp;&nbsp;&nbsp;&nbsp;Dangerous Cargo&nbsp;</span>
             <span>(ex. Chemicals, Battery)</span>

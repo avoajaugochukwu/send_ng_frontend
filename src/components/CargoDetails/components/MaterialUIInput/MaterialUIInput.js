@@ -2,8 +2,8 @@ import clsx from 'clsx'
 import styles from './MaterialUIInput.module.css'
 
 
-export default function MaterialUIInput(props) {
-  // const 
+export default function MaterialUIInput() {
+  
   return (
     <>
       <div className={styles.FlexContainer}>
