@@ -23,43 +23,50 @@ export default function SelectAService() {
   }
 
   return (
-    <div className="SelectAServiceContainer">
-      <Service
-        activeServiceId={activeServiceId}
-        handleServiceChange={handleServiceChange}
-        serviceId={1}
-        blackImage={ship_black}
-        whiteImage={ship_white}
-        text={'Air Freight'} />
+    <div className="SelectAServiceWrapper">
+      <div className="SelectAServiceHeader">
+        <h3>Select a service</h3>
+      </div>
+      <div className="SelectAServiceFlexContainer">
+        <Service
+          activeServiceId={activeServiceId}
+          handleServiceChange={handleServiceChange}
+          serviceId={1}
+          blackImage={ship_black}
+          whiteImage={ship_white}
+          text={'Air Freight'} />
 
-      {/*  */}
-      <Service
-        activeServiceId={activeServiceId}
-        handleServiceChange={handleServiceChange}
-        serviceId={2}
-        blackImage={airplane_black}
-        whiteImage={airplane_white}
-        text={'Sea Freight'} />
+        {/*  */}
+        <Service
+          activeServiceId={activeServiceId}
+          handleServiceChange={handleServiceChange}
+          serviceId={2}
+          blackImage={airplane_black}
+          whiteImage={airplane_white}
+          text={'Sea Freight'} />
 
-      {/*  */}
+        {/*  */}
 
-      <Service
-        activeServiceId={activeServiceId}
-        handleServiceChange={handleServiceChange}
-        serviceId={3}
-        blackImage={truck_black}
-        whiteImage={truck_white}
-        text={`Inland<br/>(Truck & Barge)`} />
+        <Service
+          activeServiceId={activeServiceId}
+          handleServiceChange={handleServiceChange}
+          serviceId={3}
+          blackImage={truck_black}
+          whiteImage={truck_white}
+          text={`Inland<br/>(Truck & Barge)`} />
 
-      {/*  */}
+        {/*  */}
 
-      <Service
-        activeServiceId={activeServiceId}
-        handleServiceChange={handleServiceChange}
-        serviceId={4}
-        blackImage={custom_black}
-        whiteImage={custom_white}
-        text={'Custom<br/>Clearance'} />
+        <Service
+          activeServiceId={activeServiceId}
+          handleServiceChange={handleServiceChange}
+          serviceId={4}
+          blackImage={custom_black}
+          whiteImage={custom_white}
+          text={'Custom<br/>Clearance'} />
+      </div>
+
+
     </div>
   )
 }

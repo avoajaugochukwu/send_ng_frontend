@@ -15,9 +15,11 @@ export default function Service(props) {
       <div>
         {
           activeServiceId === serviceId ?
-            <img className="ServiceIcon" src={blackImage} />
-            :
+            
             <img className="ServiceIcon" src={whiteImage} />
+            :
+            <img className="ServiceIcon" src={blackImage} />
+            
         }
 
       </div>
