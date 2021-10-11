@@ -1,12 +1,13 @@
-import react from 'react';
 import Header from './components/Header';
+import NewBooking from './components/NewBooking';
 
 import './App.css';
 
 function App() {
   return (
-    <div className="bg-blue-500">
+    <div className="App">
       <Header />
+      <NewBooking />
     </div>
   );
 }

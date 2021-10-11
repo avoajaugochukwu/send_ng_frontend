@@ -1,0 +1,43 @@
+.NewBookingFlexContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.NewBookingFlexItem:nth-child(1) {
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+  width: 13rem;
+}
+
+.NewBookingLeftArrow {
+  width: 20px;
+  margin-left: 100px;
+  
+}
+
+.NewBookingFlexItem:nth-child(2) {
+  order: 0;
+  flex: 10 1 auto;
+  align-self: auto;
+}
+
+.NewBookingHeader {
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: rgb(55, 52, 52);
+  
+}
+
+.NewBookingText {
+  margin-top: 1rem;
+  font-size: 90%;
+  font-weight: 400;
+  color: rgb(104, 103, 103);
+}

@@ -10,7 +10,7 @@ export default function Header() {
       <div className="HeaderFlexContainer">
         <div className=" HeaderFlexItem">
           <a href=".">
-            <img src={logo} />
+            <img src={logo} alt="logo" />
           </a>
 
         </div>

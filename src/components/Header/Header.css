@@ -7,22 +7,23 @@
   line-height: 1.25rem;
   border-radius: 0.25rem;
   font-weight: 500;
-  
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding: 0.5rem 2rem;
 }
 .RequestButton {
   border: solid #84a1d1 2px;
   color: #f0f6f7;
+}
+.RequestButton:hover {
+  background-color: #3763a5;
 }
 
 .ShipmentButton {
   background-color: #5cc77f;
   color: #f0f7f7;
 }
-
+.ShipmentButton:hover {
+  background-color: #30d567;
+}
 
 
 .HeaderFlexContainer {

@@ -30,6 +30,11 @@
   font-weight: 500;
 }
 
+.SearchBarButton {
+  padding: 0.5rem;
+
+}
+
 .SearchBarIcon {
   margin-top: 3px;
   width: 14px;
