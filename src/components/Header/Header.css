@@ -2,20 +2,30 @@
   background-color: #0746a7;
   /* height: 75px; */
 }
-
+.HeaderButtons {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  border-radius: 0.25rem;
+  font-weight: 500;
+  
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 .RequestButton {
   border: solid #84a1d1 2px;
-  color: #eaeef3;
+  color: #f0f6f7;
 }
 
 .ShipmentButton {
   background-color: #5cc77f;
-  color: #eef0f3;
+  color: #f0f7f7;
 }
 
 
 
-.header-flex-container {
+.HeaderFlexContainer {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -24,23 +34,32 @@
   align-items: flex-start;
   background-color: #0746a7;
 }
-.header-flex-item:nth-child(1) {
+.HeaderFlexItem:nth-child(1) {
   order: 0;
   flex: 0 1 auto;
   align-self: auto;
   margin-left: 50px;
-  margin-right: 50px;
+  margin-right: 80px;
   padding-top: 20px;
 }
-.header-flex-item:nth-child(2) {
+.HeaderFlexItem:nth-child(2) {
   order: 0;
   flex: 10 1 auto;
   align-self: auto;
-  margin-right: 200px;
+  
+  
 }
-.header-flex-item:nth-child(3) {
+.HeaderFlexItem:nth-child(3) {
   order: 0;
   flex: 0 1 auto;
   align-self: auto;
+  margin-left: 300px;
   margin-right: 50px;
+  
+}
+
+@media (max-width: 800px) {
+  .HeaderFlexContainer {
+    flex-direction: column;
+  }
 }

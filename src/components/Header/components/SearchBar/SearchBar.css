@@ -1,9 +1,37 @@
 .SearchBar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: flex-start;
   background-color: #3a6bb8;
   min-width: 500px;
+  margin: 1.25rem 0;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+
+.SearchBarInput {
+  color: #b0c4e0;
+  width: 100%;
+  padding: 0.5rem;
+}
+.SearchBarInput:focus {
+  outline: none;
+}
+.SearchBarInput::placeholder {
+  color: #b0c4e0;
+  font-weight: 500;
+}
+.SearchBarInput::-ms-input-placeholder {
+  color: #b0c4e0;
+  font-weight: 500;
 }
 
 .SearchBarIcon {
-  width: 16px;
-  height: 16px;
+  margin-top: 3px;
+  width: 14px;
+  height: 14px;
 }
