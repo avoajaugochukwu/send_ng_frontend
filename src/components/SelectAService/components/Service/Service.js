@@ -2,7 +2,7 @@
 import './Service.css'
 export default function Service(props) {
   const { activeServiceId, handleServiceChange, serviceId, blackImage, whiteImage, text } = props
-  console.log(activeServiceId, handleServiceChange)
+
   return (
     <div
       className={`ServiceWrapper ${activeServiceId === serviceId ? 'ServiceWrapperActive' : ''}`}
@@ -16,9 +16,9 @@ export default function Service(props) {
         {
           activeServiceId === serviceId ?
             
-            <img className="ServiceIcon" src={whiteImage} />
+            <img className="ServiceIcon" src={whiteImage} alt="white" />
             :
-            <img className="ServiceIcon" src={blackImage} />
+            <img className="ServiceIcon" src={blackImage} alt="black" />
             
         }
 

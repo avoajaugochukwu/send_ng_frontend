@@ -6,7 +6,7 @@ export default function SearchBar() {
       <input className="SearchBarInput" type="text" placeholder="Search" style={{ backgroundColor: 'transparent' }} />
       <button className="SearchBarButton">
         
-        <img src={icon16} alt="search icon" className="SearchBarIcon" />  
+        <img src={icon16} alt="search icon" className="SearchBarIcon" />
       </button>
       
     </div>
