@@ -45,7 +45,14 @@
       flex-direction: row;
       align-items: center;
       font-weight: 400;
-      /* color: rgb(141, 140, 140); */
+    }
+
+    .DSFlexItem:nth-child(1) {
+      flex: 1 1 auto;
+    }
+
+    .DSFlexItem:nth-child(1) {
+      flex: 1 1 auto;
     }
 
     .Bolder {
@@ -123,4 +130,27 @@
   }
   .Quality input[type="radio"]:active ~ label {
     transform: scale(1.05);
+  }
+
+  @media (max-width: 600px) {
+    .Wrapper {
+      margin: 2rem 0.5rem;
+    }
+    .FlexContainer {
+      flex-direction: column;
+    }
+    .FlexContainer {
+      padding: 0.6rem;
+    }
+    .FlexRow {
+      display: flex;
+      flex-direction: row;
+    }
+    .Options {
+      padding: 0.7rem;
+    }
+    .DangerousSubstance {
+      margin-top: 20px;
+      min-width: 100%;
+    }
   }

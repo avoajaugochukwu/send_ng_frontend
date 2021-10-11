@@ -14,10 +14,16 @@ export default function CargoDetails() {
           <h3 className={styles.CargoDetailsHeader}>Cargo Details</h3>
         </div>
         <div className={clsx(styles.FlexItem, styles.DangerousSubstance)}>
-          <ToggleButton id={'cd'} />
-          <div>
-            <span className={styles.Bolder}>&nbsp;&nbsp;&nbsp;&nbsp;Dangerous Cargo&nbsp;</span>
-            <span>(ex. Chemicals, Battery)</span>
+          <div className={styles.DSFlexItem}>
+            <ToggleButton id={'cd'} />
+          </div>
+          
+          <div className={styles.DSFlexItem}>
+            <p>
+              <b>&nbsp;&nbsp;&nbsp;&nbsp;Dangerous Cargo&nbsp;</b>(ex. Chemicals, Battery)
+            </p>
+            
+            
           </div>
         </div>
       </div>

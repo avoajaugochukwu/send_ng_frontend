@@ -26,6 +26,10 @@
   padding: 0 3.6rem;
 }
 
+.TopMargin {
+  margin-top: 40px;
+}
+
 .FlexItem:nth-child(1) {
   order: 0;
   flex: 1 auto;
@@ -38,4 +42,31 @@
   flex: 1 auto;
   max-width: 50%;
   align-self: auto;
+  }
+
+  @media (max-width: 600px) { 
+    .Wrapper {
+      margin: 2rem 0.5rem;
+
+    }
+
+    .Header {
+      padding: 0.7rem 1rem;
+    }
+    .FlexContainer {
+      flex-direction: column;
+      padding: 0.5rem;
+    }
+    .TopMargin {
+      margin-top: 0px;
+    }
+    .FlexItem:nth-child(1) {
+      max-width: 100%;
+      }
+    
+    .FlexItem:nth-child(2) {
+      
+      max-width: 100%;
+      
+      }
   }

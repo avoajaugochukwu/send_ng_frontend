@@ -41,3 +41,16 @@
   font-weight: 400;
   color: rgb(104, 103, 103);
 }
+
+@media (max-width: 600px) {
+  .NewBookingFlexContainer {
+    flex-direction: column;
+  }
+  .NewBookingLeftArrow {
+    display: none;
+  }
+  .NewBookingFlexItem {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

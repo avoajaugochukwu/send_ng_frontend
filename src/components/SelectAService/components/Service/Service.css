@@ -41,3 +41,10 @@
 .ServiceTextActive {
   color: #fff !important;
 }
+
+
+@media (max-width: 600px) {
+  .ServiceWrapper {
+    margin-bottom: 1rem;
+  }
+}

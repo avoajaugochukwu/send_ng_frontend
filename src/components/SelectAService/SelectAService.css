@@ -22,3 +22,17 @@
   font-size: larger;
   font-weight: 600;
 }
+
+@media (max-width: 600px) {
+  .SelectAServiceWrapper {
+    margin: 2rem 0.5rem;
+  }
+  .SelectAServiceFlexContainer {
+    flex-direction: column;
+    padding: 0.7rem 1rem;
+  }
+  .SelectAServiceHeader {
+    padding: 0.7rem 1rem;
+  }
+  
+} 

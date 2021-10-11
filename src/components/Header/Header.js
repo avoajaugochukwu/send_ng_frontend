@@ -20,11 +20,11 @@ export default function Header() {
         </div>
         {/* ----------------------------------------------------- */}
         <div className="HeaderFlexItem">
-          <button className="HeaderButtons RequestButton my-5">
+          <button className="HeaderButtons RequestButton">
             Request Quote
           </button>
 
-          <button className="HeaderButtons ShipmentButton my-5 ml-9">
+          <button className="HeaderButtons ShipmentButton ml-9">
             Book Shipment
           </button>
         </div>

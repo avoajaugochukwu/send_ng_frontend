@@ -1,4 +1,4 @@
-
+import clsx from 'clsx'
 import Service from './components/Service'
 
 import styles from './AdditionalServices.module.css'
@@ -10,8 +10,6 @@ function AdditionalServices() {
         <h3 className={styles.Header}>Additional Services</h3>
       </div>
       {/* ----------- */}
-
-
 
       <div className={styles.FlexContainer}>
         <div className={styles.FlexItem}>
@@ -30,8 +28,8 @@ function AdditionalServices() {
         </div>
       </div>
       {/* ******************************************** */}
-      <br /><br />
-      <div className={styles.FlexContainer}>
+      
+      <div className={clsx(styles.FlexContainer, styles.TopMargin)}>
         <div className={styles.FlexItem}>
           <Service 
             id={'3s'} 

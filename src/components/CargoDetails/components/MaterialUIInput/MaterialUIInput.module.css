@@ -50,3 +50,10 @@
 .LeftMargin {
   margin-left: 20px;
 }
+
+@media (max-width: 600px) {
+  .FlexContainer {
+    margin-top: 3rem;
+  }
+  
+}

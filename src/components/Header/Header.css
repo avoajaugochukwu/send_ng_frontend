@@ -8,6 +8,8 @@
   border-radius: 0.25rem;
   font-weight: 500;
   padding: 0.5rem 2rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 .RequestButton {
   border: solid #84a1d1 2px;
@@ -20,6 +22,7 @@
 .ShipmentButton {
   background-color: #5cc77f;
   color: #f0f7f7;
+  margin-left: 2.25rem;
 }
 .ShipmentButton:hover {
   background-color: #30d567;
@@ -60,8 +63,12 @@
   
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .HeaderFlexContainer {
     flex-direction: column;
+  }
+  .HeaderFlexItem:nth-child(3) {
+    margin: 0;
+    margin-left: 3px;
   }
 }

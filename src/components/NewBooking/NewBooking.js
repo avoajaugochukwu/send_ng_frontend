@@ -6,11 +6,9 @@ export default function NewBooking() {
   return (
     <div className="NewBookingFlexContainer">
       <div className="NewBookingFlexItem">
-        
         <img src={leftArrow} alt="left arrow" className="NewBookingLeftArrow" />
-        
-        
       </div>
+      {/* ********************* */}
       <div className="NewBookingFlexItem">
         <h1 className="NewBookingHeader">New Booking</h1>
         <p className="NewBookingText">
